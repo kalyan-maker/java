@@ -16,3 +16,4 @@ System.out.println("The sum of a " + a + " and  b " + b + " is: " + sum);
 scanner.close();    
     }
 } 
+

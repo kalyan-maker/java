@@ -2,14 +2,18 @@ import java.util.Scanner;
 
 public class sumofnumbers {
      public static void main(String[] args){
-        int kalyan; // to print the integer value
+        Scanner scanner = new Scanner(System.in); // scanner is used to take input
 
-        Scanner ab = new Scanner(System.in); // scanner is used to take input
-        kalyan =  ab.nextInt(); // nextint it takes integer value
-        System.out.println(kalyan); // it print the vriable.
+        System.out.print("Enter an integer: ");
+        int kalyan = scanner.nextInt(); // it takes integer value
+        System.out.println(kalyan);
 
-        ab.close();
+        scanner.nextLine(); // consume the remaining newline after nextInt
 
+        System.out.print("Enter a string: ");
+        String raju = scanner.nextLine();
+        System.out.println(raju);
 
+        scanner.close();
      }
 }

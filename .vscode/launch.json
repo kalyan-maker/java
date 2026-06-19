@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sumofnumbers",
+            "request": "launch",
+            "mainClass": "sumofnumbers",
+            "projectName": "java_5e201e50"
+        },
+        {
+            "type": "java",
             "name": "first",
             "request": "launch",
             "mainClass": "first",
